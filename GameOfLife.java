@@ -157,11 +157,12 @@ public class GameOfLife {
 	
 	// Prints the board. Alive and dead cells are printed as 1 and 0, respectively.
     public static void print(int[][] arr) {
-		for (int i = 0; i < arr.length; i++) {
-			for (int j = 0; j < arr[i].length; j++) {
-				System.out.printf(" %d",arr[i][j]); // Print with space
+		//// Write your code here.
+		for (int i = 1; i < arr.length-1; i++) {
+			for (int j = 1; j < arr[i].length-1; j++) {
+				System.out.printf("%3d", arr[i][j]); 
 			}
-			System.out.println(); // Print a new line after each row
+			System.out.println(); 
 		}
 	}
 	
