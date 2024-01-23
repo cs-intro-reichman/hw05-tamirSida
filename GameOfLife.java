@@ -159,7 +159,7 @@ public class GameOfLife {
     public static void print(int[][] arr) {
 		for (int i = 0; i < arr.length; i++) {
 			for (int j = 0; j < arr[i].length; j++) {
-				System.out.print(arr[i][j] + "  "); // Print with space
+				System.out.printf(" %d",arr[i][j]); // Print with space
 			}
 			System.out.println(); // Print a new line after each row
 		}
